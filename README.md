@@ -69,6 +69,11 @@ $ bin/database-to-plantuml -d 'mysql:dbname=employees' -u root -s employees | \
 Note: Outputs differ because the `employees` examples are not exactly
 the same. They are here to illustrate the tool only.
 
+# Dependencies
+
+If you want to transform the plantuml into png using `plantuml.jar`, you must have `graphviz` tools install in order
+to generate output format such as PNG.
+
 # License
 
 BSD-3-License, but seriously, do what ever you want!
